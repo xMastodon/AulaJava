@@ -9,15 +9,14 @@ public class ExercicioCinco {
 	// n primeiros números naturais.
 	public static void main(String[] args) {
 		
-		Scanner teclado = new Scanner(System.in);
-		System.out.println("## SOMA DOS N INTEIROS POSITIVOS ##");
+		Scanner teclado = new Scanner(System.in);		
 		System.out.println("Digite qual a quantidade de números: ");
 		int qtdNumeros = teclado.nextInt();
 		
 		if (qtdNumeros < 0) {
 			System.out.println("Quantidade inválida");	
 			teclado.close();
-			return; //break
+			return; 
 			
 		}
 		

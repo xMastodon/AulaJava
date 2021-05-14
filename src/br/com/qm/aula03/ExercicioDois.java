@@ -6,8 +6,7 @@ public class ExercicioDois {
 	
 	public static void main(String[] args) {
 		
-		Scanner teclado = new Scanner(System.in);
-		System.out.println("## MEDIA DE N INTEIROS ##");
+		Scanner teclado = new Scanner(System.in);		
 		System.out.println("De quantos números você quer tirar a média?");
 		int qtdNumeros = teclado.nextInt();
 		
